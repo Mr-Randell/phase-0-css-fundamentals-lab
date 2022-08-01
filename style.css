@@ -3,3 +3,34 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+header a {
+  background-color: grey;
+  padding: 0 10px;
+}
+
+section#featured-property {
+  text-align: center;
+}
+
+img ~ figcaption {
+  font-size: small;
+}
+
+figure ~ p {
+  padding: 0 500px;
+}
+
+#details {
+  background-color: red;
+  overflow: hidden;
+}
+
+#details div {
+  float: left;
+  padding: 0 150px;
+}
